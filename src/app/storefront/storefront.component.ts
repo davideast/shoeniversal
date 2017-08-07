@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { StoreFrontItem } from './storefront-item';
 import { Observable } from 'rxjs/Observable';
@@ -8,7 +8,8 @@ import 'rxjs/add/operator/map';
 @Component({
   selector: 'shu-storefront',
   templateUrl: './storefront.component.html',
-  styleUrls: ['./storefront.component.scss']
+  styleUrls: ['./storefront.component.scss'],
+  encapsulation: ViewEncapsulation.Native
 })
 export class StoreFrontComponent {
   

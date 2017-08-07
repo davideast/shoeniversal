@@ -1,0 +1,106 @@
+[{
+  "name": "Chucks",
+  "color": "black",
+  "credit": "Photo by Camila Damásio on Unsplash",
+  "highResImg": "/hires/benjamin-faust-7648.jpg",
+  "lowResImg": "/lowres/benjamin-faust-7648.jpg",
+  "author": "https://unsplash.com/@miladamasio"
+}, {
+  "name": "Bowling",
+  "color": "white",
+  "credit": "Photo by Benjamin Faust on Unsplash",
+  "lowResImg": "/lowres/camila-damasio-91788.jpg",
+  "highResImg": "/hires/camila-damasio-91788.jpg",
+  "author": "https://unsplash.com/@miladamasio"
+}, {
+  "name": "Boat shoes",
+  "color": "brown",
+  "credit": "Photo by Alexander Andrews on Unsplash",
+  "lowResImg": "/lowres/alexander-andrews-11911.jpg",
+  "highResImg": "/hires/alexander-andrews-11911.jpg",
+  "author": "https://unsplash.com/@alex_andrews"
+}, {
+  "name": "Black dress shoes",
+  "color": "brown",
+  "credit": "Photo by Peter Hershey on Unsplash",
+  "lowResImg": "/lowres/peter-hershey-241201.jpg",
+  "highResImg": "/hires/peter-hershey-241201.jpg",
+  "author": "https://unsplash.com/@peterhershey"
+}, {
+  "name": "Striped sneakers",
+  "color": "black",
+  "credit": "Photo by Joshua Niedermayer on Unsplash",
+  "lowResImg": "/lowres/joshua-niedermayer-266955.jpg",
+  "highResImg": "/hires/joshua-niedermayer-266955.jpg",
+  "author": "https://unsplash.com/@allesistdesign"
+}, {
+  "name": "Black sneakers",
+  "color": "black",
+  "credit": "Photo by Jeffrey Wegrzyn on Unsplash",
+  "lowResImg": "/lowres/jeffrey-wegrzyn-198740.jpg",
+  "highResImg": "/hires/jeffrey-wegrzyn-198740.jpg",
+  "author": "https://unsplash.com/@jeffreymwegrzyn"
+}, {
+  "name": "Brown boots",
+  "color": "brown",
+  "credit": "Photo by Camila Damásio on Unsplash",
+  "lowResImg": "/lowres/camila-damasio-2720.jpg",
+  "highResImg": "/hires/camila-damasio-2720.jpg",
+  "author": "https://unsplash.com/@miladamasio"
+}, {
+  "name": "Pink sneakers",
+  "color": "pink",
+  "credit": "Photo by Hunter Johnson on Unsplash",
+  "lowResImg": "/lowres/hunter-johnson-219349.jpg",
+  "highResImg": "/hires/hunter-johnson-219349.jpg",
+  "author": "https://unsplash.com/@hjohnson02"
+}, {
+  "name": "Blue low-cut Chucks",
+  "color": "blue",
+  "credit": "Photo by Manki Kim on Unsplash",
+  "lowResImg": "/lowres/manki-kim-272565.jpg",
+  "highResImg": "/hires/manki-kim-272565.jpg",
+  "author": "https://unsplash.com/@kimdonkey"
+}, {
+  "name": "Red sneakers",
+  "color": "red",
+  "credit": "Photo by Max Bender on Unsplash",
+  "lowResImg": "/lowres/max-bender-225917.jpg",
+  "highResImg": "/hires/max-bender-225917.jpg",
+  "author": "https://unsplash.com/@maxwbender"
+}, {
+  "name": "Ocean boots",
+  "color": "black",
+  "credit": "Photo by Max Conrad on Unsplash",
+  "lowResImg": "/lowres/max-conrad-203234.jpg",
+  "highResImg": "/hires/max-conrad-203234.jpg",
+  "author": "https://unsplash.com/@maxconrad"
+}, {
+  "name": "Black low-cut boots",
+  "color": "black",
+  "credit": "Photo by Camila Damásio on Unsplash",
+  "lowResImg": "/lowres/camila-damasio-259526.jpg",
+  "highResImg": "/hires/camila-damasio-259526.jpg",
+  "author": "https://unsplash.com/@miladamasio"
+}, {
+  "name": "Cool mis-matching sneakers",
+  "color": "blue-pink",
+  "credit": "Photo by Raka Rachgo on Unsplash",
+  "lowResImg": "/lowres/raka-rachgo-276831.jpg",
+  "highResImg": "/hires/raka-rachgo-276831.jpg",
+  "author": "https://unsplash.com/@rakarachgo"
+}, {
+  "name": "Brown boots and baby chick",
+  "color": "brown",
+  "credit": "Photo by Meg Kannan on Unsplash",
+  "lowResImg": "/lowres/meg-kannan-245874.jpg",
+  "highResImg": "/hires/meg-kannan-245874.jpg",
+  "author": "https://unsplash.com/@meghankannan4"
+}, {
+  "name": "Black skate shoes",
+  "color": "black",
+  "credit": "Photo by Rhendi Rukmana on Unsplash",
+  "lowResImg": "/lowres/rhendi-rukmana-207921.jpg",
+  "highResImg": "/hires/rhendi-rukmana-207921.jpg",
+  "author": "https://unsplash.com/@rendisssta"
+}]

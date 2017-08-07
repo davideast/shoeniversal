@@ -1,11 +1,12 @@
-import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit, Input, ChangeDetectionStrategy, ViewEncapsulation } from '@angular/core';
 import { StoreFrontItem } from '../storefront-item';
 
 @Component({
   selector: 'shu-storefront-list',
   templateUrl: './storefront-list.component.html',
   styleUrls: ['./storefront-list.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  encapsulation: ViewEncapsulation.Native
 })
 export class StoreFrontListComponent implements OnInit {
 
