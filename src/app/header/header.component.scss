@@ -1,0 +1,11 @@
+@import '../styles/base';
+@import '../styles/layout';
+@import '../styles/list';
+
+@media (max-width: 820px) {
+
+  .shu-heading-title {
+    font-size: 1.2em;
+  }
+
+}

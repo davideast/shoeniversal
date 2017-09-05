@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StoreFrontModule } from './storefront';
-import { RouteGuardModule } from './route-guard';
+import { MainPageModule } from './main-page/main-page.module';
 
 @NgModule({
   declarations: [
@@ -12,9 +11,8 @@ import { RouteGuardModule } from './route-guard';
   ],
   imports: [
     BrowserModule,
-    StoreFrontModule,
     AppRoutingModule,
-    RouteGuardModule
+    MainPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

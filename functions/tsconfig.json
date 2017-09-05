@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "outDir": "../../dist-functions",
+    "lib": [
+      "es2017",
+      "dom"
+    ]
+  }
+}

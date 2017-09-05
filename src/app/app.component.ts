@@ -7,5 +7,5 @@ import { Component, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.Native
 })
 export class AppComponent {
-  title = 'Shoeniversal'; 
+  title = 'SHOENIVERSAL'; 
 }

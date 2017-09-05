@@ -1,0 +1,22 @@
+@import '../styles/base';
+@import '../styles/layout';
+@import '../styles/list';
+
+.shu-footer {
+  background-color: #333333;
+  max-height: 150px;
+  height: 150px;
+  margin-top: 60px;
+  padding: 0 60px;
+}
+
+.shu-footer-heading {
+  color: white;
+  letter-spacing: 12px;
+}
+
+@media (max-width: 1120px) {
+  .shu-footer {
+    padding: 0 30px;
+  }
+}

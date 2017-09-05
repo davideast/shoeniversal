@@ -1,0 +1,21 @@
+
+.shu-item {
+  min-width: 250px;
+  width: 25%;
+}
+
+.shu-gridwrap .shu-item {
+  padding: 0 15px 15px 0;
+}
+
+@media (max-width: 1120px) {
+  .shu-item {
+    width: 50%;
+  }    
+}
+
+@media (max-width: 660px) {
+  .shu-item {
+    width: 100%;
+  }      
+}
