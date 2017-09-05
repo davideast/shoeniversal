@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+}
+
+.shu-container {
+  background: rgba(0,0,0,.1);
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 60px 0;
+}
