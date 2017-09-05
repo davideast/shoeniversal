@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "shoeniversal"
+    "default": "shoeniversal",
+    "nonssr": "non-ssr-shoeniversal"
   }
 }
