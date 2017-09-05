@@ -1,10 +1,9 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'shu-promo-grid',
   templateUrl: './promo-grid.component.html',
-  styleUrls: ['./promo-grid.component.scss'],
-  encapsulation: ViewEncapsulation.Native
+  styleUrls: ['./promo-grid.component.scss']
 })
 export class PromoGridComponent implements OnInit {
 

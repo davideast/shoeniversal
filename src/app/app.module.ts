@@ -10,7 +10,7 @@ import { MainPageModule } from './main-page/main-page.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'shoeniversal-app' }),
     AppRoutingModule,
     MainPageModule
   ],

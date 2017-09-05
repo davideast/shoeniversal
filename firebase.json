@@ -1,10 +1,14 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "static",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+    "rewrites": [{
+      "source": "**",
+      "function": "ssrapp"
+    }]
   }
 }
