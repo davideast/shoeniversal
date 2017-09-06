@@ -11,4 +11,7 @@ app.get('**', angular_universal_express_1.angularUniversal({
     main: __dirname + '/main.bundle',
     enableProdMode: true
 }));
-exports.ssrapp = functions.https.onRequest(app);
+
+// app.listen(3000, () => 'lol');
+
+//exports.ssrapp = functions.https.onRequest(app);

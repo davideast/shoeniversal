@@ -1,4 +1,5 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation, OnInit } from '@angular/core';
+import { TransferState } from './transfer-state/transfer-state';
 
 @Component({
   selector: 'shu-root',
@@ -6,6 +7,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./app.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'SHOENIVERSAL'; 
+  constructor(private cache: TransferState) { }
+
+  ngOnInit() {
+    this.cache.set('cached', true);
+  }
 }

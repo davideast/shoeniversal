@@ -7,6 +7,7 @@ import { HeroModule } from '../hero';
 import { PromoGridModule } from '../promo-grid';
 import { ShoeGridModule } from '../shoe-grid';
 import { FooterModule } from '../footer';
+import { TransferHttpModule } from '../transfer-http';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { FooterModule } from '../footer';
     HeroModule,
     PromoGridModule,
     ShoeGridModule,
-    FooterModule
+    FooterModule,
+    TransferHttpModule
   ],
   declarations: [MainPageComponent],
   exports: [MainPageComponent]
