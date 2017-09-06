@@ -18,7 +18,7 @@ export class ServerTransferState extends TransferState {
         styles: [],
         data: []
       });
-
+      
       const head = document.head;
       if(head.name !== 'head') {
         throw new Error('<head> needs to be the first element in your document');
