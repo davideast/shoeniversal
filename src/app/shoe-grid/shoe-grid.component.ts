@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'shu-shoe-grid',
@@ -7,9 +7,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class ShoeGridComponent implements OnInit {
 
-  constructor() { }
+  @Input() shoes: any[];
+  @Input() title = 'New';
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

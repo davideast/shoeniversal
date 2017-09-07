@@ -1,7 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { TransferHttp } from '../transfer-http';
-import { Http } from '@angular/http';
+
+export interface Shoe {
+  name: string;
+  price: string;
+  img: string;
+}
 
 @Component({
   selector: 'shu-main-page',
@@ -10,32 +15,17 @@ import { Http } from '@angular/http';
 })
 export class MainPageComponent implements OnInit {
 
-  constructor(private transfer: TransferHttp, private http: Http) { }
+  shoes: Observable<Shoe[]>;
+
+  constructor(private http: TransferHttp) { }
 
   ngOnInit() {
-    this.cacheTest();
-  }
-
-  noCacheTest() {
-    this.getShoes().subscribe(console.log);
-    setTimeout(() => {
-      this.getShoes().subscribe(console.log);
-    }, 2000);
-  }
-
-  cacheTest() {
-    this.getShoesCached().subscribe(console.log);
-    setTimeout(() => {
-      this.getShoesCached().subscribe(console.log);
-    }, 2000);    
+    this.shoes = this.getShoes();
   }
 
   getShoes() {
-    return this.http.get('https://shoeniversal.firebaseio.com/shoes.json');    
-  }
-
-  getShoesCached() {
-    return this.transfer.get('https://shoeniversal.firebaseio.com/shoes.json');
+    return this.http.get('https://shoeniversal.firebaseapp.com/shoes.json')
+      .map(data => data as Shoe[]);
   }
 
 }

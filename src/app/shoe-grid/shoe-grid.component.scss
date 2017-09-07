@@ -1,40 +1,6 @@
 
-.shu-item-picture {
-  max-height: 250px;
-  height: 250px;
-  background: #CCC;
-  overflow: hidden;
-  border-radius: 5px;
-}
 
-.shu-item-meta-name {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.shu-item-meta-price {
-  font-weight: bold;
-  font-size: 1.3em;
-  color: #BAD2AD;
-}
-
-.shu-item {
-  min-width: 250px;
-  width: 25%;
-}
-
-.shu-gridwrap .shu-item {
+.shu-gridwrap shu-item, .shu-gridwrap .shu-item {
   padding: 0 15px 15px 0;
 }
 
-@media (max-width: 1120px) {
-  .shu-item {
-    width: 50%;
-  }    
-}
-
-@media (max-width: 660px) {
-  .shu-item {
-    width: 100%;
-  }      
-}
