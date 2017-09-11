@@ -178,7 +178,7 @@ angular-universal-express-firebase@^0.0.4:
     angular-universal-express "^0.0.3"
     express "^4.15.3"
 
-angular-universal-express@0.0.3, angular-universal-express@^0.0.3:
+angular-universal-express@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/angular-universal-express/-/angular-universal-express-0.0.3.tgz#7e3cb43ca6230bb806802fd770977d281ce5d44b"
   dependencies:
@@ -1092,6 +1092,10 @@ tough-cookie@~2.3.0:
 tslib@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.7.1.tgz#bc8004164691923a79fe8378bbeb3da2017538ec"
+
+tti-polyfill@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/tti-polyfill/-/tti-polyfill-0.2.2.tgz#f7bbf71b13afa9edf60c8bb0d0c05f134e1513b9"
 
 tunnel-agent@^0.6.0:
   version "0.6.0"

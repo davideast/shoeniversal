@@ -1,5 +1,9 @@
 <shu-header></shu-header>
 
+<div class="shu-alignstats">
+  <h2 *ngFor="let entry of entries | async">{{ entry.name }} - {{ entry.time }} &nbsp;</h2>
+</div>
+
 <shu-hero [banner]="banner | async"></shu-hero>
 
 <shu-promo-grid></shu-promo-grid>

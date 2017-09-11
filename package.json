@@ -25,6 +25,7 @@
     "angular-universal-express-firebase": "^0.0.4",
     "core-js": "^2.4.1",
     "rxjs": "^5.4.2",
+    "tti-polyfill": "^0.2.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
